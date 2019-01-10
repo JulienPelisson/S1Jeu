@@ -31,5 +31,19 @@ tout d'abord sign_up : qui demande un string et le stock dans la variable mdp. P
 
 ------------------------------------------------------------------------------------------------------
                                                    
+Programme Stairway : une seule méthode compose le programme stairway > average_finish_time. On a une première variable appelé nb qui va compter le nombre de partie gagnante. Puis, on lance une première boucle disant qu'il faut faire 100 parties.
+
+La variable marche est initialisé à 10. p_Joueur correspond à la position du joueur correspond à la position du joueur au fur et à mesure de la partie.
+
+d est la variable dont le résultat sera randomisée. 
+
+
+Ensuite la boucle se lancera, chaque fois que la position du joueur est différente de p_Joueur. A chaque itération nb prends +1 , d est randomisé de nouveau puis son résultat est évalué à chaque fois. 
+
+Si le résultat est compris entre 5 et 6, alors le joueur prends + 1. 
+
+Si d vaut 1, alors p_Joueur prends -1.
+
+Puis une fois que 100 parties ont été effectués, on prends nb et on le divise par 100. On renvoie le résultat et HOP ! ça fait des chocapics ! 
 
 
