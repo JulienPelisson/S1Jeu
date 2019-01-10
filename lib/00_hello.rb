@@ -11,7 +11,7 @@ end
 
 def say_hello(first_name)
 
-	puts "Bonjour, #{first_name} https://www.youtube.com/watch?v=o5UgiJHqUzo !"
+	puts "Bonjour, #{first_name}. Un cadeau t'attends ici https://www.youtube.com/watch?v=o5UgiJHqUzo !"
 end
 
 ask_first_name
